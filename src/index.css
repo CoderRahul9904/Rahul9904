@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 220 39% 17%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 39% 17%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 39% 17%;
+
+    --primary: 213 93% 68%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 39% 17%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 8.9% 46.1%;
+
+    --accent: 220 14% 96%;
+    --accent-foreground: 220 39% 17%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 213 93% 68%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 43% 11%;
+    --foreground: 220 14% 96%;
+
+    --card: 220 43% 11%;
+    --card-foreground: 220 14% 96%;
+
+    --popover: 220 43% 11%;
+    --popover-foreground: 220 14% 96%;
+
+    --primary: 213 93% 68%;
+    --primary-foreground: 220 43% 11%;
+
+    --secondary: 220 30% 18%;
+    --secondary-foreground: 220 14% 96%;
+
+    --muted: 220 30% 18%;
+    --muted-foreground: 220 8% 65%;
+
+    --accent: 220 30% 18%;
+    --accent-foreground: 220 14% 96%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 220 14% 96%;
+
+    --border: 220 30% 18%;
+    --input: 220 30% 18%;
+    --ring: 213 93% 68%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
