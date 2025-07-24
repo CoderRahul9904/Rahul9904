@@ -22,7 +22,7 @@ const About = () => {
             {/* Photo */}
             <div className="flex justify-center">
               <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center text-white text-6xl font-bold shadow-lg">
-                AJ
+                RM
               </div>
             </div>
             
