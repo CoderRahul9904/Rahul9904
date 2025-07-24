@@ -6,22 +6,22 @@ const Footer = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com"
+      href: "https://github.com/CoderRahul9904"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com"
+      href: "https://www.linkedin.com/in/rahul-mourya9904/"
     },
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com"
+      href: "https://x.com/Rahul992004"
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:alex@example.com"
+      href: "mouryarahul543@gmail.com"
     }
   ]
 
@@ -69,7 +69,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="text-center space-y-2">
             <p className="text-muted-foreground">
-              © {new Date().getFullYear()} Alex Johnson. All rights reserved.
+              © {new Date().getFullYear()} Rahul Mourya. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
               Built with React, TypeScript & Tailwind CSS

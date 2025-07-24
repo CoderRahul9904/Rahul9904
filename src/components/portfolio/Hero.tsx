@@ -11,7 +11,7 @@ const Hero = () => {
             <div className="space-y-4">
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground">
                 Hi, I'm{" "}
-                <span className="text-primary">Alex Johnson</span>
+                <span className="text-primary">Rahul Mourya</span>
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl">
                 Full-Stack Developer passionate about creating beautiful, 
@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
                 <div className="w-72 h-72 md:w-88 md:h-88 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center text-white text-8xl md:text-9xl font-bold">
-                  AJ
+                  RM
                 </div>
               </div>
               {/* Floating elements */}

@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Moon, Sun, Menu, X } from "lucide-react"
 import { useTheme } from "@/hooks/use-theme"
+import logo from "@/assets/favicon.png"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -25,7 +26,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="text-xl font-bold text-primary">
-            Portfolio
+            <img src={logo} alt="Logo" className="h-8 w-auto" />
           </div>
 
           {/* Desktop Navigation */}

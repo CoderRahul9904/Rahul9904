@@ -14,48 +14,37 @@ interface Experience {
 
 const Experience = () => {
   const experiences: Experience[] = [
-    {
-      id: 1,
-      company: "TechCorp Solutions",
-      position: "Senior Full-Stack Developer",
-      duration: "2022 - Present",
-      location: "San Francisco, CA",
-      description: [
-        "Led development of a microservices architecture serving 50k+ daily users",
-        "Mentored junior developers and established coding standards",
-        "Reduced application load time by 40% through optimization techniques"
-      ],
-      technologies: ["React", "Node.js", "AWS", "PostgreSQL", "Docker"],
-      logo: "🏢"
-    },
-    {
-      id: 2,
-      company: "StartupXYZ",
-      position: "Frontend Developer",
-      duration: "2020 - 2022",
-      location: "Remote",
-      description: [
-        "Built responsive web applications using React and TypeScript",
-        "Collaborated with design team to implement pixel-perfect UI/UX",
-        "Implemented automated testing reducing bugs by 60%"
-      ],
-      technologies: ["React", "TypeScript", "Tailwind", "Jest", "Figma"],
-      logo: "🚀"
-    },
-    {
-      id: 3,
-      company: "Digital Agency Co",
-      position: "Web Developer",
-      duration: "2019 - 2020",
-      location: "New York, NY",
-      description: [
-        "Developed custom WordPress themes and plugins for clients",
-        "Optimized website performance and SEO for better rankings",
-        "Maintained and updated existing client websites"
-      ],
-      technologies: ["WordPress", "PHP", "JavaScript", "MySQL", "SCSS"],
-      logo: "💼"
-    }
+  {
+    id: 1,
+    company: "Anantixia LLP",
+    position: "Full-Stack Developer (Internship)",
+    duration: "Nov 2024 – Present",
+    location: "Gurugram, Haryana",
+    description: [
+      "Provisioned and configured Sanity CMS and dev environments from the ground up, reducing onboarding time by 75%",
+      "Authored and maintained Jenkins pipelines to automate build and deployment workflows",
+      "Architected and deployed NGINX as a blue‑green load balancer with automated SSL certificate management",
+      "Integrated AWS services (S3, ECS, CloudWatch) for storage, container orchestration, and real‑time monitoring"
+    ],
+    technologies: ["React", "Node.js", "Sanity CMS", "NGINX", "Docker", "AWS"],
+    logo: "🏢"
+  },
+  {
+    id: 2,
+    company: "Oasis Infobyte",
+    position: "Web Developer",
+    duration: "Jun 2024 – Jul 2024",
+    location: "Remote",
+    description: [
+      "Designed and implemented a nutrition tracking platform in React with responsive UI/UX",
+      "Integrated GraphQL APIs via Apollo Server for efficient meal-data querying and mutations",
+      "Secured user sessions with cookie‑based authentication and JWT token management",
+      "Optimized front‑end performance and state management for seamless user experience"
+    ],
+    technologies: ["React", "GraphQL", "Apollo Server", "JWT", "CSS Modules"],
+    logo: "🚀"
+  }
+
   ]
 
   return (

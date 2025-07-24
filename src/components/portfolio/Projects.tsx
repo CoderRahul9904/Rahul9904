@@ -1,6 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import GhumoWorld from "@/assets/GhumoWorld.png"
+import FitMeal from "@/assets/FitMeal.jpeg"
 import { ExternalLink, Github } from "lucide-react"
 
 interface Project {
@@ -17,21 +19,21 @@ const Projects = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Dashboard",
-      description: "A comprehensive admin dashboard for managing e-commerce operations with real-time analytics, inventory management, and order processing.",
-      image: "🛍️",
-      technologies: ["React", "TypeScript", "Node.js", "PostgreSQL", "Tailwind"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      title: "FitMeal - Nutrition Tracking Platform",
+      description: "A nutrition tracking application that lets users log meals, track calories and macronutrients, and visualize their dietary trends over time. Features include intuitive meal logging, dynamic charts for nutrient breakdown, and secure user authentication.",
+      image: FitMeal,
+      technologies: ["React", "Node.js", "TypeScript", "GrapQL", "Tailwind"," MongoDB", "Apollo Server", "JWT"],
+      liveUrl: "https://fit-meal-5m9w.vercel.app/",
+      githubUrl: "https://github.com/CoderRahul9904/FitMeal"
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative project management tool with real-time updates, team collaboration features, and advanced filtering capabilities.",
-      image: "📋",
-      technologies: ["Next.js", "Prisma", "tRPC", "PostgreSQL", "Tailwind"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      title: "GhumoWorld - Flight Booking System",
+      description: "A full‑featured flight booking platform featuring real‑time flight search, seat selection, booking management, and user profile dashboards. Integrated with third‑party APIs for live pricing and availability, with secure payment processing and dynamic itinerary generation.",
+      image: GhumoWorld,
+      technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDb", "Tailwind CSS", "Stripe API", "Amadeus API"],
+      liveUrl: "https://ghumo-world-3d6v.vercel.app/",
+      githubUrl: "https://github.com/CoderRahul9904/GhumoWorld"
     },
     {
       id: 3,
@@ -60,9 +62,10 @@ const Projects = () => {
               >
                 <CardHeader>
                   {/* Project Image/Icon */}
-                  <div className="w-full h-32 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center text-4xl mb-4">
-                    {project.image}
-                  </div>
+                  <img className="w-full h-38 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center text-4xl mb-4"
+                    src={project.image}
+                    alt={project.title}
+                  />
                   
                   <CardTitle className="text-xl group-hover:text-primary transition-colors">
                     {project.title}

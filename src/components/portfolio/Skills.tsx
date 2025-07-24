@@ -16,28 +16,31 @@ const Skills = () => {
         { name: "Tailwind CSS", level: "Expert" as const },
         { name: "Vue.js", level: "Intermediate" as const },
         { name: "JavaScript", level: "Expert" as const },
+        { name: "HTML", level: "Expert" as const }
       ]
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: "Advanced" as const },
+        { name: "Node.js", level: "Expert" as const },
         { name: "Python", level: "Advanced" as const },
         { name: "PostgreSQL", level: "Advanced" as const },
-        { name: "MongoDB", level: "Intermediate" as const },
-        { name: "GraphQL", level: "Intermediate" as const },
+        { name: "MongoDB", level: "Expert" as const },
+        { name: "GraphQL", level: "Advanced" as const },
         { name: "REST APIs", level: "Expert" as const },
+        { name: "Groovy", level: "Advanced" as const }
       ]
     },
     {
       title: "Tools & Others",
       skills: [
         { name: "Git", level: "Expert" as const },
-        { name: "Docker", level: "Intermediate" as const },
-        { name: "AWS", level: "Intermediate" as const },
-        { name: "Figma", level: "Advanced" as const },
+        { name: "Docker", level: "Expert" as const },
+        { name: "AWS", level: "Advanced" as const },
+        { name: "Jenkins", level: "Expert" as const },
+        { name: "Figma", level: "Intermediate" as const },
         { name: "Jest", level: "Advanced" as const },
-        { name: "CI/CD", level: "Intermediate" as const },
+        { name: "CI/CD", level: "Expert" as const },
       ]
     }
   ]

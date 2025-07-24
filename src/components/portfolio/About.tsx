@@ -4,9 +4,9 @@ const About = () => {
   const skills = [
     "Problem Solving",
     "Team Leadership", 
-    "UI/UX Design",
-    "Agile Development",
-    "Code Review",
+    "DevOps & Automation Expertise",
+    "Cloud Infrastructure Management",
+    "Full‑Stack Versatility",
     "Mentoring"
   ]
 
@@ -30,9 +30,7 @@ const About = () => {
             <div className="md:col-span-2 space-y-6">
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  I'm a passionate full-stack developer with over 5 years of experience 
-                  creating digital solutions that bridge the gap between design and functionality. 
-                  I love turning complex problems into simple, beautiful designs.
+                  I’m a driven full‑stack developer currently interning at Anantixia LLP, where I build and automate end‑to‑end deployment pipelines, architect blue‑green NGINX load balancers with SSL, and manage AWS infrastructure. I thrive on provisioning environments from scratch and optimizing development workflows with tools like Jenkins, Docker, and Sanity CMS.
                 </p>
                 <p>
                   When I'm not coding, you can find me exploring new technologies, 

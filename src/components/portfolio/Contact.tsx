@@ -43,19 +43,19 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "alex@example.com",
-      href: "mailto:alex@example.com"
+      value: "mouryarahul543@gmail.com",
+      href: "mouryarahul543@.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 7262022151",
+      href: "tel:+91 7262022151"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Maharashtra, Pune",
       href: "#"
     }
   ]
@@ -64,17 +64,17 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com"
+      href: "https://github.com/CoderRahul9904"
     },
     {
       icon: Linkedin,
-      label: "LinkedIn", 
-      href: "https://linkedin.com"
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/in/rahul-mourya9904/"
     },
     {
       icon: Twitter,
       label: "Twitter",
-      href: "https://twitter.com"
+      href: "https://x.com/Rahul992004"
     }
   ]
 
