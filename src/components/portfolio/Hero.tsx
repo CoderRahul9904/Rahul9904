@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { ArrowDown } from "lucide-react"
+import RahulAvatar from "@/assets/RahulAvatar.png"
 
 const Hero = () => {
   return (
@@ -36,9 +37,7 @@ const Hero = () => {
           <div className="flex-1 flex justify-center lg:justify-end">
             <div className="relative">
               <div className="w-80 h-80 md:w-96 md:h-96 rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                <div className="w-72 h-72 md:w-88 md:h-88 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center text-white text-8xl md:text-9xl font-bold">
-                  RM
-                </div>
+                <img src={RahulAvatar} alt="Rahul Avatar" className="w-72 h-72 md:w-88 md:h-88 rounded-full bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center text-white text-8xl md:text-9xl font-bold" />
               </div>
               {/* Floating elements */}
               <div className="absolute top-4 -right-4 w-20 h-20 bg-primary/10 rounded-full animate-pulse"></div>
