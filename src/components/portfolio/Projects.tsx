@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import GhumoWorld from "@/assets/GhumoWorld.png"
 import FitMeal from "@/assets/FitMeal.jpeg"
+import bar from "@/assets/bar.png"
 import { ExternalLink, Github } from "lucide-react"
 
 interface Project {
@@ -37,12 +38,12 @@ const Projects = () => {
     },
     {
       id: 3,
-      title: "Weather Analytics Platform",
-      description: "A data visualization platform that aggregates weather data from multiple sources and provides insights through interactive charts.",
+      title: "Stock Price Bar Chart",
+      description: "Daily closing stock prices shown as vertical bars. Users can hover over bars to see detailed price information.",
       image: "🌤️",
-      technologies: ["Vue.js", "D3.js", "Python", "FastAPI", "MongoDB"],
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com"
+      technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDb", "Tailwind CSS"],
+      liveUrl: "https://bar-builder-spark.vercel.app/",
+      githubUrl: "https://github.com/CoderRahul9904/bar-builder-spark"
     }
   ]
 
