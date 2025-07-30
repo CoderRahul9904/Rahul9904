@@ -40,7 +40,7 @@ const Projects = () => {
       id: 3,
       title: "Stock Price Bar Chart",
       description: "Daily closing stock prices shown as vertical bars. Users can hover over bars to see detailed price information.",
-      image: "🌤️",
+      image: bar,
       technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDb", "Tailwind CSS"],
       liveUrl: "https://bar-builder-spark.vercel.app/",
       githubUrl: "https://github.com/CoderRahul9904/bar-builder-spark"
